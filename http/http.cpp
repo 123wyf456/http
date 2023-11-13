@@ -119,7 +119,7 @@ void unimplement(int client) {
 }
 
 void not_found(int client) {
-	//发送404响应
+	//发送一个404响应
 	char buff[1024];
 
 	strcpy(buff, "http/1.0 404 not found\r\n");
